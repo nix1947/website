@@ -2,13 +2,13 @@ const GTAG_ID = 'UA-111574706-1';
 
 module.exports = {
   siteMetadata: {
-    title: `Bennett`,
-    author: `Bennett Hardwick`,
+    title: `Manoj`,
+    author: `Manoj Gautam`,
     social: {
-      twitter: 'bennettbackward'
+      twitter: 'nix1947'
     },
-    description: `The personal website and thoughts of me - Bennett Hardwick.`,
-    siteUrl: `https://bennetthardwick.com`
+    description: `Manoj Gautam's Blog`,
+    siteUrl: `https://manojgautam.com.np`
   },
   plugins: [{
     resolve: `gatsby-source-filesystem`,
@@ -159,7 +159,7 @@ module.exports = {
               }
             `,
         output: "/rss.xml",
-        title: "Bennett Hardwick's Blog",
+        title: "Manoj Gautam's Blog",
       },],
     },
   },
@@ -197,8 +197,8 @@ module.exports = {
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `Bennett Hardwick`,
-      short_name: `Bennett`,
+      name: `Manoj Gautam`,
+      short_name: `manoj`,
       start_url: `/`,
       background_color: `#ffffff`,
       theme_color: `#1ca086`,
